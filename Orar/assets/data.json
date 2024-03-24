@@ -1,0 +1,25 @@
+{
+    "token": null,
+    "email": null,
+    "facultate": {
+        "id": null,
+        "num": null,
+        "name": null
+    },
+    "an": {
+        "id": null,
+        "num": null
+    },
+    "serie": {
+        "id": null,
+        "name": null
+    },
+    "grupa": {
+        "id": null,
+        "num": null
+    },
+    "semigrupa": {
+        "id": null,
+        "num": null
+    }
+}

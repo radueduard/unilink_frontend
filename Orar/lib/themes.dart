@@ -1,0 +1,146 @@
+import 'package:flutter/material.dart';
+
+var lightTheme = ThemeData(
+  colorScheme: const ColorScheme(
+    brightness: Brightness.light,
+    primary: Colors.white,
+    onPrimary: Colors.black,
+    background: Color.fromARGB(255, 244, 244, 244),
+    onBackground: Colors.black,
+    error: Colors.red,
+    onError: Colors.black,
+    secondary: Colors.white54,
+    onSecondary: Colors.black,
+    surface: Colors.white54,
+    onSurface: Colors.black,
+  ),
+  highlightColor: const Color.fromARGB(255, 119, 92, 220),
+  textTheme: const TextTheme(
+    titleLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 55,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    titleMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 45,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    titleSmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 30,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    bodyLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 30,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    bodyMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    bodySmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 11,
+      fontWeight: FontWeight.bold,
+      color: Color.fromARGB(255, 31, 31, 31),
+    ),
+    labelLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    labelMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    labelSmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 11,
+      fontWeight: FontWeight.w400,
+      color: Colors.red,
+    ),
+  ),
+);
+var darkTheme = ThemeData(
+  colorScheme: const ColorScheme(
+    brightness: Brightness.dark,
+    primary: Colors.black,
+    onPrimary: Colors.white,
+    background: Colors.black,
+    onBackground: Colors.white,
+    error: Colors.red,
+    onError: Colors.white,
+    secondary: Colors.black54,
+    onSecondary: Colors.white,
+    surface: Colors.black54,
+    onSurface: Colors.white,
+  ),
+  highlightColor: const Color.fromARGB(255, 81, 44, 217),
+  textTheme: const TextTheme(
+    titleLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 55,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    titleMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 45,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    titleSmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 25,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    bodyLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 25,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    bodyMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    bodySmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 11,
+      fontWeight: FontWeight.bold,
+      color: Color.fromARGB(255, 190, 190, 190),
+    ),
+    labelLarge: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    labelMedium: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    labelSmall: TextStyle(
+      fontFamily: "Roboto",
+      fontSize: 11,
+      fontWeight: FontWeight.w400,
+      color: Colors.red,
+    ),
+  ),
+);
